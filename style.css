@@ -1,0 +1,119 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*start header*/
+.header-wraper{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;  
+    height: 941px;
+    width: 100%;
+    padding-top: 131px;
+}
+.header-wraper .half-width h1 {
+    color: #ec4c7a;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.header-wraper .half-width h2{
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 2px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f28a00, #fac933);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.link-button:hover{
+    background-image: linear-gradient(360deg, #f28a00, #fac933);
+}
+/*start header*/
+/*start biography*/
+.biography{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;  
+    height: 740px;
+    width: 100%; 
+    padding: 67px 0;
+}
+.biography .half-width h2{
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 2px;
+}
+.biography .half-width img{
+    width: 75%;
+    float: right;
+}
+/*end biography*/
+/*start work*/
+.work{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;  
+    height: 740px;
+    width: 100%; 
+    padding: 67px 0;
+}
+.work-wraper{
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.work h1{
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 2px;
+    text-align: center;
+    margin-bottom: 131px;
+}
+.work img{
+    width: 30%;
+}
+/*end work*/
+/*start fotter*/
+.footer{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;  
+    height: 878px;
+    width: 100%; 
+    padding: 67px 0;
+}
+.footer-wraper{
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.footer h1{
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 2px;
+    text-align: center;
+    margin-bottom: 131px;
+    
+}
+.contract-box{
+    background: linear-gradient(to right, #ec4f91 0%, #ec4c77 100%);
+    margin: 0 333px;
+    padding: 20px 313px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+/*end fotter*/
